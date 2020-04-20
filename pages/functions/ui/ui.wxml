@@ -5,10 +5,11 @@
   <image class='image2' src='/images/50x50.png'></image>
   <image class='image3' src='/images/150x100.png'></image>
   <image class='image4' src='/images/80x45.png'></image>
-  <view class='bottom_tabbar'>
-    <image class='button' src='/images/cloud upload.png'></image>
+  <view class='bottom_tabbar' bindtap='ChooseImage'>
+    <image class='button' src='/images/cloud upload.png' ></image>
     <text>上传</text>
     <view class='black_line'></view>
     
   </view>
+
 </view>
